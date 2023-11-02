@@ -334,6 +334,10 @@ a {
 }
 
 @media(max-width: 768px) {
+    #home-section{
+        height: 830px;
+        width: auto;
+    }
     .home-contant h1 {
         font-size: 26px;
         margin: 24px 0 10px 0;
@@ -368,7 +372,6 @@ a {
     text-decoration: none;
     transition: 0.3s;
     margin-left:40px;
-
 }
 .home-btn1:hover{
     color: black;
@@ -383,3 +386,67 @@ a {
     font-size: 14px;
     margin-left: 25px;
 }
+/*---End Home---*/
+
+/*----Services---*/
+#services{
+    height: 500px;
+    width: auto;
+    background-color: #1B1B1B;
+}
+.services-title{
+    margin-left: 75px;
+}
+@media(max-width:768px){
+    #services{
+        height: 1250px;
+        width: auto;
+    }
+    .services-title{
+        margin-left: 20px;
+    }
+
+}
+.services-box{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 1px 2px 1px 1px rgb(40 38 38 / 93%);
+    
+}
+.services-box:hover{
+    background-color: orange;
+    color: white;
+}
+.services-box a:hover{
+    background-color: orange;
+    color: white;
+}
+.img-small {
+    max-width: 50px;
+    display: block; 
+    margin: 0 auto;
+}
+.services-box a {
+    color: #000000;
+    transition: 0.3s;
+}
+.inner-services {
+    display: flex;
+    align-items: center;
+}
+
+.service-img {
+    height: 60px; 
+    width: 80px;
+    margin-right: 0;
+}
+
+.service-box-title {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+/*----End Services---*/
