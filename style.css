@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Poppins:wght@300;400;500;600&display=swap');
 
 body {
     line-height: 1.5;
@@ -334,10 +335,11 @@ a {
 }
 
 @media(max-width: 768px) {
-    #home-section{
+    #home-section {
         height: 830px;
         width: auto;
     }
+
     .home-contant h1 {
         font-size: 26px;
         margin: 24px 0 10px 0;
@@ -371,12 +373,14 @@ a {
     font-weight: 600;
     text-decoration: none;
     transition: 0.3s;
-    margin-left:40px;
+    margin-left: 40px;
 }
-.home-btn1:hover{
+
+.home-btn1:hover {
     color: black;
 }
-.home-btn2{
+
+.home-btn2 {
     left: 100px;
     padding: 10px 16px;
     color: #1B1B1B;
@@ -386,60 +390,70 @@ a {
     font-size: 14px;
     margin-left: 25px;
 }
+
 /*---End Home---*/
 
 /*----Services---*/
-#services{
+#services {
     height: 500px;
     width: auto;
     background-color: #1B1B1B;
 }
-.services-title{
+
+.services-title {
     margin-left: 75px;
 }
-@media(max-width:768px){
-    #services{
+
+@media(max-width:768px) {
+    #services {
         height: 1250px;
         width: auto;
     }
-    .services-title{
+
+    .services-title {
         margin-left: 20px;
     }
 
 }
-.services-box{
+
+.services-box {
     height: 100px;
     width: 100%;
     background-color: white;
     border-radius: 20px;
     transition: 0.3s;
     box-shadow: 1px 2px 1px 1px rgb(40 38 38 / 93%);
-    
+
 }
-.services-box:hover{
+
+.services-box:hover {
     background-color: orange;
     color: white;
 }
-.services-box a:hover{
+
+.services-box a:hover {
     background-color: orange;
     color: white;
 }
+
 .img-small {
     max-width: 50px;
-    display: block; 
+    display: block;
     margin: 0 auto;
 }
+
 .services-box a {
     color: #000000;
     transition: 0.3s;
 }
+
 .inner-services {
     display: flex;
     align-items: center;
 }
 
 .service-img {
-    height: 60px; 
+    height: 60px;
     width: 80px;
     margin-right: 0;
 }
@@ -450,3 +464,68 @@ a {
 }
 
 /*----End Services---*/
+
+
+/*----Our Clients---*/
+#clients {
+    height: 300px;
+    width: auto;
+}
+
+@media(max-width:768px) {
+    #clients {
+        height: 680px;
+        width: auto;
+    }
+}
+
+
+/*----End Clients---*/
+
+/*----Slider---*/
+#Slider {
+    height: 400px;
+    width: auto;
+}
+
+@media(max-width:768px) {
+    #Slider {
+        height: 400px;
+        width: auto;
+    }
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 50%; /* You can adjust this value to control the image width as a percentage of the container width */
+    max-height: 100%; /* Maintain aspect ratio by limiting the max height */
+    object-fit: cover;
+}
+
+
+  .swiper-slide {
+    width: 80%;
+  }
+
+  .swiper-slide:nth-child(2n) {
+    width: 60%;
+  }
+
+  .swiper-slide:nth-child(3n) {
+    width: 40%;
+  }
+
+/*----End Slider---*/
