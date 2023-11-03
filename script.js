@@ -73,6 +73,7 @@ var typed = new Typed(".auto-type", {
 });
 /*End Auto text*/
 
+/*---Auto Slider--*/
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: "4",
   spaceBetween: 30,
@@ -85,3 +86,4 @@ var swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
 });
+/*---End Auto Slider--*/

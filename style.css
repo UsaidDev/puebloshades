@@ -523,13 +523,29 @@ a {
   .swiper-slide {
     width: 33.333333%;
   }
-
-/*--  .swiper-slide:nth-child(2n) {
-    width: 60%;
-  }
-
-  .swiper-slide:nth-child(3n) {
-    width: 40%;
-  }
----*/
 /*----End Slider---*/
+
+/*--about---*/
+#about{
+    height: 400px;
+    width: auto;
+    background-color: #1B1B1B;
+}
+@media(max-width:567px){
+    #about{
+        height: 800px;
+        width: auto;
+    }
+}
+.outer-box {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.orange-inner{
+    height: 62px;
+    width: 71px;
+    border-radius: 10px;
+    background-color: orange;
+}
+/*---End about */
