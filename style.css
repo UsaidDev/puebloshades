@@ -507,6 +507,7 @@ a {
     height: 360px;
     width: auto;
 }
+
 .swiper-slide img {
     display: block;
     width: 100%;
@@ -519,6 +520,7 @@ a {
         height: 305px;
         width: auto;
     }
+
     .swiper-slide img {
         width: 250px;
         height: 250px;
@@ -531,7 +533,7 @@ a {
         height: 300px;
         width: auto;
     }
-    
+
 }
 
 .swiper {
@@ -547,6 +549,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 .swiper-slide {
     width: 33.333333%;
 }
@@ -605,6 +608,7 @@ a {
     width: auto;
     background-color: #1B1B1B;
 }
+
 .d-flex.justify-content-end {
     color: orange;
     cursor: pointer;
@@ -635,7 +639,7 @@ a {
 
     .Testimonial-outer {
         height: auto;
-        width: 80%; 
+        width: 80%;
         background-color: white;
         border: 1px solid;
         border-radius: 20px;
@@ -646,7 +650,8 @@ a {
         margin-left: auto;
     }
 
-    .testimonial-name, .testimonial-profetion {
+    .testimonial-name,
+    .testimonial-profetion {
         text-align: center;
     }
 }
@@ -663,8 +668,16 @@ a {
     border: 1px solid;
     border-radius: 20px;
     margin: auto;
+    transition: 0.3s;
 }
 
+.Testimonial-outer:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+
+}
 .testimonial-para {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
@@ -688,18 +701,21 @@ a {
 .testimonial-icon {
     margin-left: 80%;
 }
+
 .Testimonial-outer a {
-    color:#1B1B1B;
+    color: #1B1B1B;
     text-decoration: none;
 }
+
 .Testimonial-outer a:hover {
     color: #1B1B1B;
     text-decoration: none;
 }
+
 /*--End Testimonials--*/
 
 /*--Blog--*/
-#blog{
+#blog {
     height: 400px;
     width: auto;
 }
