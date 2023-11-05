@@ -87,3 +87,8 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 /*---End Auto Slider--*/
+
+function inputbox() {
+  var input = document.getElementById('input-box');
+  input.style.backgroundColor = "white";
+}
