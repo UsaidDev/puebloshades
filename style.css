@@ -602,22 +602,19 @@ a {
 /*---End about */
 
 /*--Testimonials--*/
-
 #Testimonial {
     height: 550px;
     width: auto;
     background-color: #1B1B1B;
 }
-
 .d-flex.justify-content-end {
     color: orange;
     cursor: pointer;
     transition: 0.3s;
 }
-
 @media (max-width: 576px) {
     #Testimonial {
-        height: 1100px;
+        height: 970px;
         width: auto;
     }
 
@@ -639,11 +636,12 @@ a {
 
     .Testimonial-outer {
         height: auto;
-        width: 80%;
+        width: 100%;
         background-color: white;
         border: 1px solid;
         border-radius: 20px;
         margin: auto;
+        
     }
 
     .testimonial-icon {
@@ -662,12 +660,11 @@ a {
 }
 
 .Testimonial-outer {
-    height: 300px;
+    height: auto;
     width: auto;
     background-color: white;
     border: 1px solid;
     border-radius: 20px;
-    margin: auto;
     transition: 0.3s;
 }
 
@@ -716,8 +713,79 @@ a {
 
 /*--Blog--*/
 #blog {
-    height: 400px;
+    height: 367px;
     width: auto;
+    background-color: #1B1B1B;
+}
+
+@media (max-width: 567px) {
+    #blog {
+        height: 600px;
+        width: auto;
+    }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+    #blog {
+        height: 500px;
+        width: 100%;
+    }
+}
+.blog-title{
+    font-family: "Poppins",sans-serif;
+    margin-left: 14px;
+    padding-top: 4px;
+    font-size: 40px;
+    color: white;
+}
+.blog-first-para, .blog-para-second,.blog-para-therd {
+    margin-left: 14px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.blog-btn {
+    background: #FFB401;
+    border-radius: 10px;
+    padding: 10px 16px;
+    color: #FFFF; 
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    &:hover {
+        background: #FFD200; 
+    }
+    &:focus {
+        outline: none; 
+        box-shadow: 0 0 5px #FFB401;
+    }
+    &:active {
+        background: #FF9900; 
+    }
+}
+.blog-role{
+    font-family: "Poppins",sans-serif;
+    margin-left: 14px;
+    padding-top: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.outer-role{
+    height: 80px;
+    width: auto;
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 6%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 1px 1px rgb(40 38 38 / 93%);
+    transition: 0.3s;
+}
+.outer-role:hover{
+    background-color: #FFB401;
+    color: white;
 }
 
 /*--End Blog--*/
