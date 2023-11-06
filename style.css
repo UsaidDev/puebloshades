@@ -807,7 +807,7 @@ a {
 
 /*--contact--*/
 #contact {
-    height: 400px;
+    height: 200px;
     width: auto;
     background-color: white;
 }
@@ -818,7 +818,7 @@ a {
         width: auto;
         background-color: white;
     }
-    
+
 }
 
 .input-label {
@@ -833,11 +833,13 @@ a {
     border-radius: 20px;
     margin-top: 5%;
 }
-@media(max-width:576px){
-    .contact-outer{
+
+@media(max-width:576px) {
+    .contact-outer {
         height: 900px;
     }
 }
+
 .contact-title {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -855,31 +857,36 @@ a {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
 }
-
 #exampleInputPassword1::placeholder {
     font-family: "Poppins", sans-serif;
     font-size: 13px;
 }
+
 textarea.form-control {
     width: 100%;
     border: 1px solid;
     height: 100px;
 
 }
-.contact-img{
-    height: 44%;
+
+.contact-img {
+    height: 400px;
     width: auto;
 }
-@media(max-width:576px){
-    .contact-img{
-        height:40%;
-        width:auto;
+
+@media(max-width:576px) {
+    .contact-img {
+        height: 39%;
+        width: auto;
     }
 }
+
 @media (min-width: 577px) and (max-width: 992px) {
-    .contact-img{
-        height:34%;
-        width:auto;
+    .contact-img {
+        height: 34%;
+        width: auto;
     }
 }
+
+
 /*--End Contact--*/
