@@ -629,7 +629,6 @@ a {
     }
 }
 
-/* Media query for tablet devices (between 577px and 992px) */
 @media (min-width: 577px) and (max-width: 992px) {
     #Testimonial {
         height: auto;
@@ -807,14 +806,14 @@ a {
 
 /*--contact--*/
 #contact {
-    height: 200px;
+    height: 580px;
     width: auto;
     background-color: white;
 }
 
 @media(max-width:576px) {
     #contact {
-        height: 700px;
+        height: 930px;
         width: auto;
         background-color: white;
     }
@@ -857,6 +856,7 @@ a {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
 }
+
 #exampleInputPassword1::placeholder {
     font-family: "Poppins", sans-serif;
     font-size: 13px;
@@ -870,7 +870,7 @@ textarea.form-control {
 }
 
 .contact-img {
-    height: 400px;
+    height: 350px;
     width: auto;
 }
 
@@ -888,5 +888,77 @@ textarea.form-control {
     }
 }
 
-
 /*--End Contact--*/
+
+/*---location--*/
+#location {
+    height: 900px;
+    width: auto;
+    background-color: #1B1B1B;
+}
+@media(max-width:576px){
+    #location{
+        height: 1000px;
+        width: auto;
+    }
+}
+.location-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
+
+.location-para {
+    font-family: "Poppins", sans-serif;
+}
+
+.location-box {
+    height: 180px;
+    width: auto;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+.location-box:hover {
+    background-color: #FFB401;
+    color: white;
+}
+
+.perimid {
+    height: 50px;
+    width: auto;
+    padding-left: 20px;
+    display: inline;
+}
+.location-currect{
+    font-size: 14px;
+}
+/*---End location--*/
+
+/*---footer--*/
+#footer{
+    height: 450px;
+    width: auto;
+    background-color: #1B1B1B;
+}
+@media(max-width:576px){
+    #footer{
+        height: 700px;
+        width: auto;
+    }
+}
+.footer-link a{
+    color: red;
+    font-family: "Poppins",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #828282;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.footer-link a:hover{
+    color: #FFB401;
+}
+/*---End footer--*/
