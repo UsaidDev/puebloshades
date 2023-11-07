@@ -876,7 +876,7 @@ textarea.form-control {
 
 @media(max-width:576px) {
     .contact-img {
-        height: 39%;
+        height: 38%;
         width: auto;
     }
 }
